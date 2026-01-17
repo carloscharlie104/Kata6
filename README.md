@@ -1,0 +1,2 @@
+# Kata6
+Voy a evolucionar el proyecto exponiendo la funcionalidad core como un servicio web. El endpoint aceptará parámetros HTTP para configurar el histograma y devolverá los datos serializados en JSON. El reto arquitectónico será implementar el patrón Adapter para desacoplar las capas. El objetivo es que la arquitectura interna permanezca agnóstica al protocolo de comunicación, dejando que el adaptador gestione la conversión entre la petición web y el dominio.
